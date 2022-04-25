@@ -44,7 +44,7 @@ services:
       # - judger_debug=1
   
   oj-backend:
-    image: registry.cn-hangzhou.aliyuncs.com/onlinejudge/oj_backend
+    build: https://github.com/MeiK2333/OnlineJudge.git
     container_name: oj-backend
     restart: always
     depends_on:
